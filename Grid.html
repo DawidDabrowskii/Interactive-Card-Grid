@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>InteractiveCardGrid</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <form action="#">
+                <div class="input-box">
+                    <label for="Cardholder">Cardholder Name</label>
+                    <input type="text" name="Cardholder" id="Cardholder" required>
+                </div>
+                <div class="input-box">
+                    <label for="card_number">Card Number</label>
+                    <input type="number" name="card_number" id="card_number" required>
+                </div>
+                <div class="input-box">
+                    <label for="date">EXP.DATE (MM/YY)</label>
+                    <input type="month" name="date" id="month" required>
+                    <input type="year" name="date" id="year" required>
+                </div>
+                <div class="input-box">
+                    <label for="cvc">CVC</label>
+                    <input type="number" name="cvc" id="cvc" required>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Confirm" id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="left-side">
+        <div>
+            <img src="/Images/bg-main-desktop.png" alt="">
+        </div>
+    </div>
+    <div class="card-images">
+        <div class="front-card">
+            <img src="/Images/bg-card-front.png" alt="">
+            <img src="/Images/card-logo.svg" alt="">
+            <p>Dawid Dąbrowski</p>
+        </div>
+        <div class="back-card">
+            <img src="/Images/bg-card-back.png" alt="">
+            <p>123</p>
+        </div>
+    </div>
+</body>
+</html>
